@@ -1,3 +1,6 @@
+var MainVersion = 'V1.0.0',// •	主版本号：当你做了不兼容的 API 修改
+    Version = '0.0.1';     // •	次版本号：当你做了向下兼容的功能性新增
+
 // 二开页面配置文件
 var baseAPI='',         //API接口地址 like  http://10.10.100.3:8867
     wlwUrl='',          //物联网平台web地址
