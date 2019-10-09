@@ -31,7 +31,7 @@ if (styleNode.styleSheet) {
 }
 document.getElementsByTagName('head')[0].appendChild(styleNode);
 
-Vue.component('mas-imgup',{
+var masImgup =  Vue.component('mas-imgup',{
     // 接收来自父组件的数据流
     props: {
         info:Object
@@ -103,3 +103,4 @@ Vue.component('mas-imgup',{
     // 模板div结构 slot标签处标记插槽位置
     template: template
 });
+export default masImgup;
